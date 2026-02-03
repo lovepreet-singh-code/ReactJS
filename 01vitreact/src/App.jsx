@@ -1,9 +1,17 @@
 
+import Chai from "./chai"
+
 
 function App() {
-  
+  const username = "love"
+
   return (
-   <h1> love code react with vite </h1>  )
+    <>
+    <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>testing</p>
+   </>
+  )
 }
 
 export default App
